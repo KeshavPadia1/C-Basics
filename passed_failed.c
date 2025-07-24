@@ -15,10 +15,11 @@ scanf("%d", &maths);
 
 total = physics + chemistry + maths;
 
-if (total >= 300 * 40 / 100 && physics >= 33 && chemistry >= 33 && maths >= 33)
+if (total >= 300 * 40 / 100 && physics >= 33 && chemistry >= 33 && maths >= 33){
     printf("you are passed\n");
-else
+}
+else{
     printf("you are failed\n");
-
+}
     return 0;
 }
