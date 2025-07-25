@@ -12,4 +12,4 @@ if(i == 5){
     return 0;
 }
 
-// break1 is diff than break2 because of the output as it matters whether break is first or print is first
+// break1 is diff than break2 because of the output as it matters whether break is first or print is first - if you want correct output put break first then printf
