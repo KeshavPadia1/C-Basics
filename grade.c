@@ -3,7 +3,7 @@
 int main() {
     char grade;
     int marks;
-    printf("Enter marks\n");
+    printf("Enter marks out of 100\n");
     scanf("%d" , &marks);
 
     if(marks <= 100 && marks >= 90){
